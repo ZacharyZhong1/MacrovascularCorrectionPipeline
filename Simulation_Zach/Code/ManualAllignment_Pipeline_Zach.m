@@ -2,7 +2,7 @@
 % with BOLD space and downsample brian mask
 % Author: Xiaole Zhong 
 % Created at: April 1 2024
-% Last updated: April 1 2024
+% Last updated: 29 Oct 2025
 
 clc;
 clear;
