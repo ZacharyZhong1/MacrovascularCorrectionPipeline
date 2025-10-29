@@ -9,7 +9,7 @@ clear;
 
 %% I/O information
 addpath('/rri_disks/atalante/chen_lab/analysis/XzhongVascular/MRIio')
-InVivoDataDirGeneral='../../fMRI_Signal_Zach/Preprocessed/';
+InVivoDataDirGeneral='../../fMRI_Signal_Zach/Preprocessed/'; % Please change to your own fMRI folder
 SimBOLDDir='../../Simulation_Zach/Simulated_Signal/BOLDSignal/';
 YvDataDir='../../Simulation_Zach/Yv/';
 OutputDirGeneral='../CorrectedBOLD/';
