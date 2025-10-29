@@ -1,6 +1,6 @@
 % Artery Segmentation
 % Constructed by Xiaole Zhong
-% Last updated: 26 Sept, 2023
+% Last updated: Oct 29 2025
 clc;
 clear;
 
@@ -55,4 +55,5 @@ for Sub=20
 
     cd ..
 end
+
 
