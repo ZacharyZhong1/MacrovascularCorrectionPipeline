@@ -1,4 +1,4 @@
-# MacrovascularCorrectionPipeline
+# Macrovascular Correction Pipeline
 MRA-Informed Biophysical Simulation for Removing Macrovascular Effects from fMRI
 
 This pipeline was developed for the following studies. Please read these papers—especially the first one—carefully before using the pipeline.
