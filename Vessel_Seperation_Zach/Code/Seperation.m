@@ -1,7 +1,7 @@
 % Use this MATLAB file to segment Vein 
 % Author: Xiaole Zhong 
 % Created at: Sept 30 2020
-% Last updated: Sept 30 2020
+% Last updated: Oct 29 2505
 
 clc;
 clear;
