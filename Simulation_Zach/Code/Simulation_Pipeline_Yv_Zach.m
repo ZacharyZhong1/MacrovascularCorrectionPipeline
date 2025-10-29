@@ -1,7 +1,7 @@
-% Use this MATLAB file to simulate venous signak
+% Use this MATLAB file to simulate venous signal
 % Author: Xiaole Zhong 
 % Created at: Sept 30 2020
-% Last updated: March 21 2024
+% Last updated: 29 Oct 2025
 
 clc;
 clear;
