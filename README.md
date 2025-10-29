@@ -64,5 +64,6 @@ Please run the following code in the specified order:
 	- Note 2: Our ROI is defined as the region with simulated RSFA higher than 1% of the maximum simulated RSFA based on Ref. 1, a conservative setting. You may use a lower percentage or remove the threshold as needed.
 
 
-
+## Features temporarily unavailable
+- Simulation for arterial signal
 
