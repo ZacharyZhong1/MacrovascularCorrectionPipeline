@@ -3,7 +3,7 @@
 % Perform func_bet for functional connectivity and func_smooth for SD
 % ROI defined by 1% max(sim_BOLD)
 % Constructed by Xiaole Zhong
-% Last updated: May 18, 2024
+% Last updated: 29 Oct 2025
 clc;
 clear;
 
