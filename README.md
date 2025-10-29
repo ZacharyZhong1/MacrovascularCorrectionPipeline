@@ -26,6 +26,7 @@ This step segments the vasculature from TOF-MRA using the BrainCharter toolbox. 
 This step primarily involves manually removing false-positive detections from the previous segmentation. Our approach trims all “vessels” in the middle, but you may use any method you prefer. But please follow the data structure in the code.
 
 - Separation.m
+  
 	-	Function: removes unwanted segmented vessels based on provided coordinates.
 	-	A while-loop with 'block' has been added to prevent accidental execution. Please remove it before running the code.
 
@@ -57,6 +58,7 @@ Please run the following code in the specified order:
 
 ## Macrovascular_Regression
 - Macrovascular_Regression_Pipeline.m
+
 	- Function: Regresses out the macrovascular effect using simulation and Yv signals (both provided for verification, but typically only the simulation signal is needed).
 	- Note: Replace the fMRI folder in the script with your own data.
 	- Note 2: Our ROI is defined as the region with simulated RSFA higher than 1% of the maximum simulated RSFA based on Ref. 1, a conservative setting. You may use a lower percentage or remove the threshold as needed.
