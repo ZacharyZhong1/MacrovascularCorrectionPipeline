@@ -15,7 +15,7 @@ This step segments the vasculature from TOF-MRA using the BrainCharter toolbox. 
 	- Function: core vessel extraction function from the BrainCharter toolbox.
 
 - MRVExtract_Coronal.m / MRVExtract_Sagittal.m
-	- Function: registers MRA to T1 space and executes the main loop that calls the primary bash script. (For our dataset, both coronal and sagittal scans were used to improve vascular completeness.)\
+	- Function: registers MRA to T1 space and executes the main loop that calls the primary bash script. (For our dataset, both coronal and sagittal scans were used to improve vascular completeness.)
 	- Input: ParticipantFolder.txt — a text file listing input file names, one per line.
 
 - MRV_Enhance.m
@@ -32,24 +32,32 @@ This step primarily involves manually removing false-positive detections from th
 The key component of this pipeline simulates the BOLD signal using a biophysical model. This step is computationally intensive, depending on the spatial resolution of MRA, and is recommended to run with 200–500 GB of RAM.
 Please run the following code in the specified order:
 
-- ManualAlighment_Pipeline.m
-  - Function: Use the shape of the brain to align T1 and BOLD space with AFNI 3dAutobox. Detailed method see ref 1.
-  - Please double-check the quality of alignment and manually adjust if necessary.
-    
+- ManualAlignment_Pipeline.m
+	- Function: Aligns T1 and BOLD space using brain shape and AFNI 3dAutobox. See Ref. 1 for details.
+	- Note: Double-check alignment quality and manually adjust if needed.
+
 - fBV_Pipeline.m
-  - Function: downsample the segmented and separated blood vessels from T1 space to BOLD space to estimate the fractional blood volume (fBV). Detailed method see ref 1.
-  - Please replace the fMRI folder indicated in the script with your own folder.
- 
+	- Function: Downsamples segmented and separated vessels from T1 to BOLD space to estimate fractional blood volume (fBV). See Ref. 1 for details.
+	- Note: Replace the fMRI folder in the script with your own data.
+
 - Yv_Extractor.m
-	- 	Function: extract the BOLD signal from the voxel with the highest fBV as a surrogate signal of oxygenation level (Yv) change.  Detailed methods are described in refs. 1 and 2.
-	- 	Please replace the fMRI folder indicated in the script with your own folder.
-
+	- Function: Extracts BOLD signal from the voxel with the highest fBV as a surrogate for oxygenation level (Yv) changes. See Refs. 1 & 2 for methods.
+	- Note: Replace the fMRI folder in the script with your own data.
+  
 - Simulation_Pipeline_Yv.m
-	-	Function: Main code for simulating the local B0 inhomogeneity with the Fourier-based Kernel approach.
- 	-	Please adjust the basic parameter part according to you need. The upsample factor will be the resolution upsamping factors to calculate the B0 offset, recommand at least 4.
+	- Function: Simulates local B0 inhomogeneity using a Fourier-based kernel approach.
+	- Note: Adjust the basic parameters as needed; upsample factor (≥4) controls resolution for B0 offset calculation.
+  
+- R1Decay.m / R2_Decay.m / R2P_Decay.m
+	- Function: Computes T1-, T2-, and T2*-related signal decays.
+  
+- BOLD.m
+	- Function: Combines T1, T2, and T2* components to generate the final BOLD signal.
 
-- R1Decay.m/R2_Decay/R2P_Decay.m
-	-	Function: Computed the T1, T2, and T2P related signal.
+## Macrovascular_Regression
+- Macrovascular_Regression_Pipeline.m
+	- Function: Regresses out the macrovascular effect using simulation and Yv signals (both provided for verification, but typically only the simulation signal is needed).
+	- Note: Replace the fMRI folder in the script with your own data.
 
 
 
