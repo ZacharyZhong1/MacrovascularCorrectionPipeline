@@ -1,8 +1,7 @@
-% Upsample the vascular mask and brain mask and then allign high-res space
-% with BOLD space and downsample brian mask
+% T1 related signal simulation
 % Author: Xiaole Zhong 
 % Created at: April 1 2024
-% Last updated: April 1 2024
+% Last updated: 29 Oct 2025
 
 clc;
 clear;
