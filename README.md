@@ -26,5 +26,11 @@ This step primarily involves manually removing false-positive detections from th
 
 Separation.m
 	-	Function: Removes unwanted segmented vessels based on provided coordinates.
+	-	A while-loop with 'block' has been added to prevent accidental execution. Please remove it before running the code.
+
+## Simulation
+The key component of this pipeline simulates the BOLD signal using a biophysical model. This step is computationally intensive, depending on the spatial resolution of MRA, and is recommended to run with 200–500 GB of RAM.
+Please run the following code in the specified order:
+
 
 
