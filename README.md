@@ -41,7 +41,7 @@ Please run the following code in the specified order:
 	- Note: Replace the fMRI folder in the script with your own data.
 
 - Yv_Extractor.m
-	- Function: Extracts BOLD signal from the voxel with the highest fBV as a surrogate for oxygenation level (Yv) changes. See Refs. 1 & 2 for methods.
+	- Function: Extracts BOLD signal from the voxel with the highest fBV as a surrogate for oxygenation level (Yv) changes as input signal for simulation. See Refs. 1 & 2 for methods.
 	- Note: Replace the fMRI folder in the script with your own data.
   
 - Simulation_Pipeline_Yv.m
