@@ -2,8 +2,9 @@
 MRA-Informed Biophysical Simulation for Removing Macrovascular Effects from fMRI
 
 This pipeline was developed for the following studies. Please read these papers—especially the first one—carefully before using the pipeline.
->1. Xiaole Z. Zhong, Jonathan R. Polimeni, J. Jean Chen; Predicting the macrovascular contribution to resting-state fMRI functional connectivity at 3 Tesla: A model-informed approach. Imaging Neuroscience 2024; 2 imag–2–00315. doi: https://doi.org/10.1162/imag_a_00315
->2. to be added...
+>1. Zhong, X.Z., Polimeni, J.R., Chen, J.J., 2024. Predicting the macrovascular contribution to resting-state fMRI functional connectivity at 3 Tesla: A model-informed approach. Imaging Neuroscience. https://doi.org/10.1162/imag_a_00315
+>2. Zhong, X.Z., Van Lankveld, H., Chen, J.J., 2025. The link to oxidative metabolism varies across rs-fMRI metrics: A whole-brain assessment using macrovascular correction. bioRxiv 2025.02.11.633958. https://doi.org/10.1101/2025.02.11.633958
+>3. to be added...
 
 This toolbox has four subunits. Please run the following subunits in the specified order:
 
