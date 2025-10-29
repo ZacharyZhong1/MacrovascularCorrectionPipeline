@@ -11,10 +11,9 @@ clear;
 addpath('/rri_disks/atalante/chen_lab/analysis/XzhongVascular/MRIio');
 T1DirGeneral='../../Vessel_Segementation_Zach/Preprocessed/';
 VenousDirGeneral='../../Vessel_Seperation_Zach/Seperated_Vessels/';
-BOLDDirGeneral='../../fMRI_Signal_Zach/Preprocessed/';
+BOLDDirGeneral='../../fMRI_Signal_Zach/Preprocessed/'; % Please change to your own fMRI data folder
 OutputDirGeneral='../Simulated_Mask/';
 InfoDirGeneral=OutputDirGeneral;
-SignalDir='../GMS_Signal/';
 if ~isdir(OutputDirGeneral)
     mkdir(OutputDirGeneral)
 end
