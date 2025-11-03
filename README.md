@@ -61,7 +61,7 @@ Please run the following code in the specified order:
 
 	- Function: Regresses out the macrovascular effect using simulation and Yv signals (both provided for verification, but typically only the simulation signal is needed).
 	- Note: Replace the fMRI folder in the script with your own data.
-	- Note 2: Our ROI is defined as the region with simulated RSFA higher than 1% of the maximum simulated RSFA based on Ref. 1, a conservative setting. You may use a lower percentage or remove the threshold as needed.
+	- Note 2: Our ROI is defined as the region with simulated RSFA higher than 1% of the maximum simulated RSFA based on Ref. 1, a conservative setting. You may use a lower percentage or remove the threshold as needed (but we observed limited improvement by push threshold from 1% to 0.01%).
 
 
 ## Features temporarily unavailable
