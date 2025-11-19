@@ -67,3 +67,8 @@ Please run the following code in the specified order:
 ## Features temporarily unavailable
 - Simulation for arterial signal
 
+## Questions?
+Please contact 
+xzhong@research.baycrest.org 
+or
+jchen@research.baycrest.org
