@@ -7,7 +7,7 @@ This pipeline was developed for the following studies. Please read these papersâ
 >3. Zhong, X., Van Lankveld, H., Mathew, A., Chen, J.J., 2025. The link between steady-state EEG and rs-fMRI metrics in healthy young adults: the effect of macrovascular correction. bioRxiv 2025.06.06.658306. https://doi.org/10.1101/2025.06.06.658306 (accepted by Imaging Neurosci. (Camb.))
 >4. to be added...
 
-This toolbox has four subunits. Please run the following subunits in the specified order:
+This toolbox has four subunits. Please run the following subunits in order:
 
 ## Vessel_Segmentation
 This step segments the vasculature from TOF-MRA using the BrainCharter toolbox. Please cite the original study if you use this component.
