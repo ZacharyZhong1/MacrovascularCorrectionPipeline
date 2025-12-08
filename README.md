@@ -4,7 +4,7 @@ MRA-Informed Biophysical Simulation for Removing Macrovascular Effects from fMRI
 This pipeline was developed for the following studies. Please read these papers—especially the first one—carefully before using the pipeline.
 >1. Zhong, X.Z., Polimeni, J.R., Chen, J.J., 2024. Predicting the macrovascular contribution to resting-state fMRI functional connectivity at 3 Tesla: A model-informed approach. Imaging Neuroscience. https://doi.org/10.1162/imag_a_00315
 >2. Zhong, X.Z., Van Lankveld, H., Chen, J.J., 2025. The link to steady-state oxidative metabolism and hemodynamics varies across rs-fMRI metrics: A whole-brain assessment using macrovascular correction. Imaging Neurosci. (Camb.). https://doi.org/10.1162/imag.a.1060 
->3. Zhong, X., Van Lankveld, H., Mathew, A., Chen, J.J., 2025. The link between steady-state EEG and rs-fMRI metrics in healthy young adults: the effect of macrovascular correction. bioRxiv 2025.06.06.658306. https://doi.org/10.1101/2025.06.06.658306
+>3. Zhong, X., Van Lankveld, H., Mathew, A., Chen, J.J., 2025. The link between steady-state EEG and rs-fMRI metrics in healthy young adults: the effect of macrovascular correction. bioRxiv 2025.06.06.658306. https://doi.org/10.1101/2025.06.06.658306 (accepted by Imaging Neurosci. (Camb.))
 >4. to be added...
 
 This toolbox has four subunits. Please run the following subunits in the specified order:
